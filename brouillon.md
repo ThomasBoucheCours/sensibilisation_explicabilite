@@ -3,6 +3,7 @@
 - Qu'est ce que l'explicabilité
 - Pourquoi avoir de l'explicabilité
 - Les différents types d'explicabilité
+- Comment ça s'applique ?
 - Evaluation de l'explicabilité
 - Packages Python
 
@@ -19,6 +20,10 @@ Le but de cette phase est l’obtention des paramètres d’un modèle qui attei
 ![Machine_learning](Machine_learning.png)
 --> cité le livre christoph M
 
+## L'évalutation des performances d'un modèle
+- présentation
+
+- à quoi ça sert ?
 
 Périmètre :  apprentissage supervisé, données tabulaires
 Examples Classification et Régression
@@ -32,37 +37,64 @@ Il peut s’agir, par exemple, des variables d’entrée et de leurs conséquenc
 
 Les explications doivent être adaptées au niveau de compréhension de la personne auxquelles elles sont destinées."
 
+Est ce que le modèle est interprétable par design ?
+modèles linéaires & cie
 
 
 
 # Pourquoi avoir de l'explicabilité
 Périmètre : principalement les modèles non directement interprétables
 
+Quels utilités ?
 - la réglementation
+Pour fournir la possibilité d'auditer les choix de prédiction d'un  modèle
 - susciter des réactions pour travailler un cas d'usage
 - la transparence
 - Donner confiance
+Pour un utilisateur, comprendre comment le modèle fonctionne, comprendre les circonstances de la prédiction du modèle et pouvoir 
+avoir confiance en la prédiction
 - itérer et améliorer l'aprentissage
+Pour un data scientist, comprendre comment le modèle fonctionne, pour le débuger ou l'améliorer. Voir les variables qui fonctionne bien
+ou non et comprendre pourquoi
 - analyser les incohérences
 - détecter les biais
 - pour les utilisateurs finaux, être en maitrise de la compréhension de la prédiction
+pour un utilisateur, comment une prédiction a été effectuée, et voir si cette prédiction est cohérente et avoir des pistes d'améliorations de 
+la prédiction
 - comme produit d'IA
 - acceptation sociale de l'ia
+Pour la société, comprendre les forces et les limites du fonctionnement des modèles et dépasser "la peur de l'inconnu"
 - pour du débuggage
 - à des fins d'audit
+
+A qui s'adresse :
+- aux data scientists
+- aux utilisateurs finaux
+- aux décideurs
+- aux instances de réglementations
 
 ## Les besoins de réglementation
 
 # Les différents types d'explicabilité
 
 ## Explicabilité globale
+- feature importance
+
+- feature effect plot
+Différentes méthodes de calculs existent : partial dependence plot (PDP), Accumulated effect plots (ALE)
 
 ## Explicablité locale
+
+exemple : image shap github
 
 ## Autres méthodes
 - A base de contre exemples
 
 ## les limites de certaines méthodes
+
+# Comment ça s'applique ?
+
+
 
 
 # Evaluation de l'explicabilité
@@ -79,9 +111,16 @@ Comment évaluer la qualité d'une explicabilité ?
 A Guide for Making Black Box Models Explainable (2nd ed.).
 [christophm.github.io/interpretable-ml-book/](https://christophm.github.io/interpretable-ml-book/)
 
+- Explainable Artificial Intelligence, From Simple Predictors to Complex Generative Models, Spring 2023, Harvard University.
+[interpretable-ml-class.github.io](https://interpretable-ml-class.github.io/)
+
 - https://www.cnil.fr/fr/glossaire
 
 # Packages Python
+- [scikit-learn](https://github.com/scikit-learn/scikit-learn)
+- [shap](https://github.com/shap/shap)
+- [shapash](https://github.com/MAIF/shapash)
+
 
 
 # A faire
