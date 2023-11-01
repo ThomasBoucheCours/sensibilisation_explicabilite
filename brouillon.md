@@ -9,6 +9,16 @@
 
 
 # Introduction
+
+Présentateur : Thomas Bouché, Data scientist à la Maif depuis 2019. Contributeur à la librairie Shapash, 
+open sourcé par la Maif et qui a pour but de rendre les modèles de machine learning compréhensible pour tous.
+
+## les objectifs de la sensibilisation
+- Connaitre les différentes explicabilités à présenter avec son modèle de machine learning
+- être curieux sur le fonctionnement d'un modèle de machine learning
+- Connaitre les différents usages et avantages de l'explicabilité
+
+
 ## Qu'est qu'un modèle de machine de machine learning
 
 Définition de la CNIL :  
@@ -20,14 +30,13 @@ Le but de cette phase est l’obtention des paramètres d’un modèle qui attei
 ![Machine_learning](Machine_learning.png)
 --> cité le livre christoph M
 
-## L'évalutation des performances d'un modèle
-- présentation
-
-- à quoi ça sert ?
 
 Périmètre :  apprentissage supervisé, données tabulaires
 Examples Classification et Régression
 ## Evaluer les performances d'un modèle
+- présentation
+
+- à quoi ça sert ?
 
 # Qu'est ce que l'explicabilité
 Définition de la CNIL de l'explicabilité :
@@ -38,34 +47,33 @@ Il peut s’agir, par exemple, des variables d’entrée et de leurs conséquenc
 Les explications doivent être adaptées au niveau de compréhension de la personne auxquelles elles sont destinées."
 
 Est ce que le modèle est interprétable par design ?
-modèles linéaires & cie
+régression linéaire, régression logistique, arbre de décision, GLM, ...
 
 
 
 # Pourquoi avoir de l'explicabilité
 Périmètre : principalement les modèles non directement interprétables
 
-Quels utilités ?
-- la réglementation
-Pour fournir la possibilité d'auditer les choix de prédiction d'un  modèle
+## Quelles utilités ?
 - susciter des réactions pour travailler un cas d'usage
 - la transparence
 - Donner confiance
 Pour un utilisateur, comprendre comment le modèle fonctionne, comprendre les circonstances de la prédiction du modèle et pouvoir 
 avoir confiance en la prédiction
 - itérer et améliorer l'aprentissage
-Pour un data scientist, comprendre comment le modèle fonctionne, pour le débuger ou l'améliorer. Voir les variables qui fonctionne bien
-ou non et comprendre pourquoi
+Pour un data scientist, comprendre comment le modèle fonctionne, pour le débuger ou l'améliorer. Voir les variables qui fonctionne bien ou non et comprendre pourquoi
 - analyser les incohérences
 - détecter les biais
 - pour les utilisateurs finaux, être en maitrise de la compréhension de la prédiction
 pour un utilisateur, comment une prédiction a été effectuée, et voir si cette prédiction est cohérente et avoir des pistes d'améliorations de 
 la prédiction
 - comme produit d'IA
-- acceptation sociale de l'ia
+- favorise l'acceptation sociale de l'ia
 Pour la société, comprendre les forces et les limites du fonctionnement des modèles et dépasser "la peur de l'inconnu"
 - pour du débuggage
 - à des fins d'audit
+- la réglementation
+Pour fournir la possibilité d'auditer les choix de prédiction d'un  modèle
 
 A qui s'adresse :
 - aux data scientists
@@ -73,27 +81,46 @@ A qui s'adresse :
 - aux décideurs
 - aux instances de réglementations
 
-## Les besoins de réglementation
-
 # Les différents types d'explicabilité
 
-## Explicabilité globale
-- feature importance
+méthodes agnostiques  --> avantages, utilisables sur tous les modèles et comparables
 
-- feature effect plot
-Différentes méthodes de calculs existent : partial dependence plot (PDP), Accumulated effect plots (ALE)
+## Explicabilité globale
+### feature importance
+Quelles sont les variables explicatives qui ont le plus de poids dans la prédiction ?
+
+Exemple de graphique
+
+Différentes méthodes de calculs : des méthodes intégrées aux fonctionnalités du modèle (par exemple gini importance pour sklearn), Permutation based feature impotance, la somme des contributions locales 
+
+### feature effect plot
+Comment une variable influence la prédiction selon ses caractéristiques?
+
+Exemples de graphiques
+
+Différentes méthodes de calculs : partial dependence plot (PDP), Accumulated effect plots (ALE), selon les contributions locales
 
 ## Explicablité locale
+Quelle est l'influcence de chaque variable sur une prédiction ?
 
 exemple : image shap github
+
+Différentes méthodes de calculs : Shapley Values, Lime
 
 ## Autres méthodes
 - A base de contre exemples
 
+Image Dice
+
 ## les limites de certaines méthodes
+corrélations entre les variables
+--> exemples de méthodes et graphiques
+
 
 # Comment ça s'applique ?
 
+
+# Comment sélectionner la population à évaluer
 
 
 
@@ -120,7 +147,8 @@ A Guide for Making Black Box Models Explainable (2nd ed.).
 - [scikit-learn](https://github.com/scikit-learn/scikit-learn)
 - [shap](https://github.com/shap/shap)
 - [shapash](https://github.com/MAIF/shapash)
-
+- [plotly](https://github.com/plotly/plotly.py)
+- [dash](https://github.com/plotly/dash)
 
 
 # A faire
