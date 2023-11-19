@@ -34,12 +34,11 @@ Le but de cette phase est l’obtention des paramètres d’un modèle qui attei
 Périmètre :  apprentissage supervisé, données tabulaires
 Examples Classification et Régression
 
-## performance versus explicabilité
+Liste des modèles : 
 
-compromis entre explicabilité et performance du modèle
-+ simplicité de mise en place
-+ simplicité de maintien dans le temps
-+ harmonisation des pratiques
+
+## Exemple pour le cours
+
 
 
 ## Evaluer les performances d'un modèle
@@ -135,6 +134,14 @@ corrélations entre les variables
 --> exemples de méthodes et graphiques
 
 causal interpretation
+
+## choix d'un modèle
+performance versus explicabilité
+
+compromis entre explicabilité et performance du modèle
++ simplicité de mise en place
++ simplicité de maintien dans le temps
++ harmonisation des pratiques
 
 
 # Comment ça s'applique ?

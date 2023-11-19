@@ -22,7 +22,7 @@ Scénario 2 :
 
     Marie : Exactement, Michel ! La météo est un indicateur indirect qui a un impact sur la demande, et en comprenant cela, nous pouvons prendre des décisions plus informées pour mieux servir nos clients.
 
-Morale de l'histoire : Il est important de faire preuve de vulgariser et de faire preuve de pédagogie. En plus,
+A retenir : Il est important de faire preuve de vulgariser et de faire preuve de pédagogie. En plus,
 en faisant cela, le data scientist va pouvoir se nourrir des échanges pour améliorer son modèle
 
 
@@ -50,7 +50,7 @@ Scénario 2 :
 
     Candidat : Merci pour les détails. Cela m'aide vraiment à comprendre la décision. Je vais travailler sur mes compétences en Python et continuer ma recherche.
 
-Morale de l'histoire : L'explicabilité peut aider à donner confiance aux utilisateurs de l'IA. Elle permet également d'être transparent sur 
+A retenir : L'explicabilité peut aider à donner confiance aux utilisateurs de l'IA. Elle permet également d'être transparent sur 
 la prédiction effectué. Cela peut permettre de favoriser l'acceptation l'usage de l'IA. 
 A noter qu'il ne suffit pas de l'explicabilité, il faut aussi que l'IA soit utile pour la société, éthique, transparente,..
 L'utilisateur du produit d'IA est plus en maitrise de son usage si on complémente la prédiction avec de l'explicabilité. Dans ce cadre, il est en maitrise de faire usage ou non du retour de la prédiction
@@ -86,7 +86,7 @@ Scénario 2 :
 
     Sarah : Ah ok, je vais vérifier cette données alors.
 
-Morale de l'histoire : A partir de l'explicabilité, il est possible d'itérer sur l'apprentissage du modèle. Ajouter des variables, 
+A retenir : A partir de l'explicabilité, il est possible d'itérer sur l'apprentissage du modèle. Ajouter des variables, 
 supprimer des variables non nécessaires, vérifier la qualité des données, debugger, modifer la transofrmation des variables explicatives.
 Et donc avoir un modèle d'une meilleure qualité et plus performant
 
@@ -94,7 +94,12 @@ Et donc avoir un modèle d'une meilleure qualité et plus performant
 
 
 - comme produit d'IA
+Dialogue scénario 1 : une start up qui propose de prédire le nombre de décès pour anticiper le nombre de cerceuil à prévoir lors de la venue des secours
+scénario 2 :  une explication du nombre de décès
 
 - à des fins d'audit
-- la réglementation
 Pour fournir la possibilité d'auditer les choix de prédiction d'un  modèle
+- la réglementation
+l'IA act  : notion de transparence et explicabilité et traçabilité
+projections : adoption du texte en 2023 et application pleine en 2026.
+notion de niveaux de risques du système d'IA
