@@ -1,6 +1,7 @@
 # Périmètre de la présentation
 
-Périmètre :  apprentissage supervisé, données tabulaires
-Exemples Classification et Régression
+Périmètre de la présentation : apprentissage supervisé et données tabulaires
 
-Type de modèles concernés : 
+Exemples : Classification et Régression
+
+Type de modèles concernés : Régressions linéaires, Régression logistique, SVM, Forêts aléatoires, LightGBM, XGBoost, CatBoost, réseau de neurones,...

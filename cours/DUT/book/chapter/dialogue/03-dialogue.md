@@ -1,6 +1,6 @@
 # Transparence, Confiance, Acceptation sociale et Maitrise de l'usage
 
-Contexte : Une entreprise utilise un système d'IA pour trier les candidatures
+Contexte : *Une entreprise utilise un système d'IA pour trier les candidatures*
 
 Scénario 1 : 
 
@@ -22,7 +22,7 @@ Scénario 2 :
 
     Candidat : Merci pour les détails. Cela m'aide vraiment à comprendre la décision. Je vais travailler sur mes compétences en Python et continuer ma recherche.
 
-A retenir : L'explicabilité peut aider à donner confiance aux utilisateurs de l'IA. Elle permet également d'être transparent sur 
+> **A retenir :** L'explicabilité peut aider à donner confiance aux utilisateurs de l'IA. Elle permet également d'être transparent sur 
 la prédiction effectué. Cela peut permettre de favoriser l'acceptation l'usage de l'IA. 
 A noter qu'il ne suffit pas de l'explicabilité, il faut aussi que l'IA soit utile pour la société, éthique, transparente,..
 L'utilisateur du produit d'IA est plus en maitrise de son usage si on complémente la prédiction avec de l'explicabilité. Dans ce cadre, il est en maitrise de faire usage ou non du retour de la prédiction
