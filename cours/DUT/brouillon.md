@@ -58,6 +58,7 @@ Il peut s’agir, par exemple, des variables d’entrée et de leurs conséquenc
 
 Les explications doivent être adaptées au niveau de compréhension de la personne auxquelles elles sont destinées."
 
+
 Est ce que le modèle est interprétable par design ?
 régression linéaire, régression logistique, arbre de décision, GLM, ...
 

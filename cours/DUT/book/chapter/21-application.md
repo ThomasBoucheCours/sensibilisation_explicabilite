@@ -1,6 +1,6 @@
 # Comment ça s'applique ?
 
-![usage_explicabilite](./assets/usage_explicabilite.png)
+![usage_explicabilite](../../../../assets/usage_explicabilite.png)
 
 
 # Comment sélectionner la population à évaluer
