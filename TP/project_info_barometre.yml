@@ -1,0 +1,32 @@
+General information:
+  version: 0.1
+  name: Barometre Changement Climatique
+  purpose: Prédire la solution au changement climatique envisagée par les sondés
+  date: auto
+  contributors: Thomas Bouche
+  description: Un sondage de l ADEME Et OpinionWay demande à des sondés leur avis sur la solution face aux changements climatiques. Nous faisons un modèle pour prédire la solution répondue grâces aux autres questions et caractéristiques du sondé
+  source code: https://github.com/ThomasBouche/sensibilisation_explicabilite
+  Git commit: 
+
+Dataset information:
+  path: https://www.data.gouv.fr/fr/datasets/barometre-representations-sociales-du-changement-climatique/
+  origin: Data.gouv.fr
+  description: Depuis 2000, l’ADEME a initié un baromètre sur les représentations sociales du changement climatique. Cette enquête permet de dresser un tableau et de mesurer les évolutions de la place de l’environnement dans les préoccupations des Français, les représentations des causes et conséquences du changement climatique, l’opinion sur les solutions et mesures de politiques publiques ainsi que l’engagement individuel. Vous trouverez ici la base de données de l’ensemble des vagues de ce baromètre depuis l’année 2000.
+  depth: De 2000 à 2022
+  perimeter: les vagues les plus complètes sur les 10 dernières années
+  target variable: Solutions
+  target description: Solutions face au changement climatique
+
+Data Preparation:
+  variable filetring: Conservation des variables qui semblent clés (une quarantaine)
+  individual filtering: Suppression des individus avec trop de valeurs à vides
+  missing values: à revoir
+  Feature engineering: reconstitution d une variable qui correspond à la moyenne des actions que le sondé envisage possible de faire
+  Path to script: https://github.com/ThomasBouche/sensibilisation_explicabilite
+
+Model training:
+  Used algorithm: catboost.
+  Parameters choice: paramètres par défaut
+  Metrics: auc
+  Validation strategy: We splitted our data into train (75%) and test (25%)
+  Path to script: https://github.com/ThomasBouche/sensibilisation_explicabilite
