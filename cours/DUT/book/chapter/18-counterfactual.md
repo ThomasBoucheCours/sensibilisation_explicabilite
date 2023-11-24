@@ -1,6 +1,7 @@
 # A base de contre exemples
+🔫🪖🎖️
 
-Quelles modifications dans les variables peuvent entraîner un changement de prédiction ?
+**Quelles modifications dans les variables peuvent entraîner un changement de prédiction ?**
 
 ```
 🗨️(Peux-tu m'indiquer les conditions qui auraient dû être réunies pour réduire le nombre de décès ?)

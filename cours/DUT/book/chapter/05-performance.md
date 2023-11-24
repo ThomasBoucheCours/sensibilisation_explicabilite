@@ -1,4 +1,5 @@
 # Evaluer les performances d'un modèle
+🦐🏓🏃
 
 ```
 🗨️(Le modèle est capable de bien prédire si les crashs ont plus de 100 décès)

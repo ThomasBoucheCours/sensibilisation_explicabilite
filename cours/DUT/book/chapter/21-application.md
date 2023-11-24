@@ -1,4 +1,5 @@
 # Comment ça s'applique ?
+🧸🤠🤖
 
 ```{figure} ../../../../assets/usage_explicabilite.png
 ---

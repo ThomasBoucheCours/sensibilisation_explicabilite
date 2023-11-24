@@ -1,4 +1,5 @@
 # Définition de l'Explicabilité
+⚡🏢🌲
 
 Définition de la CNIL :
 >Dans le domaine de l'intelligence artificielle, l’explicabilité est la capacité de mettre en relation et de rendre compréhensible les éléments pris en compte par le système d’IA pour la production d’un résultat. <br /> 

@@ -1,6 +1,7 @@
-# Détails par variable
+# Explicabilité globale : Détails par variable
+⚖️🎶🏳️‍🌈
 
-Comment une variable influence la prédiction selon ses caractéristiques?
+**Comment une variable influence la prédiction selon ses caractéristiques?**
 
 ```
 🗨️(Peux tu me dire quelle est l'influence du pays de la compagnie aérienne sur le nombre de décès ?)

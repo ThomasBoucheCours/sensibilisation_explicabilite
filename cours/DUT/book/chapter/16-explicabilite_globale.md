@@ -1,6 +1,7 @@
-# Feature importance
+# Explicabilité globale : Feature importance
+🕵️‍♂️🔓🏺
 
-Quelles sont les variables explicatives qui ont le plus de poids dans la prédiction ?
+**Quelles sont les variables explicatives qui ont le plus de poids dans la prédiction ?**
 
 ```
 🗨️(Peux tu me dire quels sont les critères qui ont le plus d'impacts au global ?)
