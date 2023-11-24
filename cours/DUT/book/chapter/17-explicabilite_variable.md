@@ -1,4 +1,5 @@
 # Détails par variable
+
 Comment une variable influence la prédiction selon ses caractéristiques?
 
 ```

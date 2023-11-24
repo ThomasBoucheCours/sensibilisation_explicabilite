@@ -5,7 +5,7 @@
 ```
 🗨️(Est ce qu'un modèle pourrait prédire le nombre de décès lors d'un accident d'avion ?)
 👨‍✈️
-Tom
+Tom, Pilote d'avion
 ```
 
 ```

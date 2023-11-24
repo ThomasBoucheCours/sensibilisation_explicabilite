@@ -6,7 +6,7 @@
 Marguerite, Data Scientist
 ```
 
-**Split en Train/Test :**
+**Indépendance entre les données d’entraînement et de test :**
 
 | Variables        | split     |
 |------------------|-----------|

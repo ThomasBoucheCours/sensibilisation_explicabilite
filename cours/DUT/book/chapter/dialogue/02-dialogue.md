@@ -22,5 +22,4 @@ Scénario 2 :
 
     Marguerite : Je n'y avais pas pensé, c'est une bonne idée !
 
-> **A retenir :** Il est important de faire preuve de vulgariser et de faire preuve de pédagogie. En plus,
-en faisant cela, le data scientist va pouvoir se nourrir des échanges pour améliorer son modèle
+> **A retenir :** Il est important de vulgariser et de faire preuve de pédagogie. De plus, le data scientist va pouvoir se nourrir des échanges pour améliorer son modèle.

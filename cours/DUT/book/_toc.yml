@@ -27,13 +27,18 @@ parts:
         - file: chapter/13-resume_usages
       - file: chapter/14-methodes
       - file: chapter/15-explicabilite_locale
-      - file: chapter/16-explicabilite_globale1
-      - file: chapter/17-explicabilite_globale2
+      - file: chapter/16-explicabilite_globale
+      - file: chapter/17-explicabilite_variable
       - file: chapter/18-counterfactual
       - file: chapter/19-limites
       - file: chapter/20-choix_modele
       - file: chapter/21-application
+      - file: chapter/21b-selection_population
       - file: chapter/22-qualite_explicabilite
       - file: chapter/23-image_texte
+  - caption: Annexes
+    chapters:
+      - file: chapter/30-packages_python
+      - file: chapter/31-citations
 
 

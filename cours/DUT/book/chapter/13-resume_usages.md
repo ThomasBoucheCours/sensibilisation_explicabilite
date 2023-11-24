@@ -1,21 +1,20 @@
-# Quelles utilités ?
+# En résumé
 
-- susciter des réactions pour travailler un cas d'usage
-- la transparence
+- Susciter des réactions pour travailler un cas d'usage
+- La transparence
 - Donner confiance
-- itérer et améliorer l'aprentissage
-- analyser les incohérences
-- détecter les biais
-- pour les utilisateurs finaux, être en maitrise de la compréhension de la prédiction
-- comme produit d'IA
-- favorise l'acceptation sociale de l'ia
-- pour du débuggage
-- à des fins d'audit
-- la réglementation
+- Itérer et améliorer l’apprentissage
+- Analyser les incohérences
+- Détecter les biais
+- Être en maîtrise de la compréhension de la prédiction
+- Comme produit d'IA
+- Favorise l'acceptation sociale de l'IA
+- Pour corriger des bugs
+- A des fins d'audit
+- La réglementation
 
-A qui s'adresse :
+A qui cela s'adresse :
 - aux data scientists
 - aux utilisateurs finaux
 - aux décideurs
 - aux instances de réglementations
---> ajouter les apports pour chacun ?
