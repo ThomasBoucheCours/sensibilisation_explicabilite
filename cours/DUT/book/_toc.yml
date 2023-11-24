@@ -1,0 +1,44 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: chapter/root.md
+parts:
+  - caption: Introduction
+    chapters:
+      - file: chapter/00-presentateur
+      - file: chapter/01-objectifs
+      - file: chapter/02-definition_ML
+      - file: chapter/03-perimetre
+      - file: chapter/04-illustration
+      - file: chapter/05-performance
+  - caption: Explicabilité
+    numbered: true
+    maxdepth: 2
+    chapters:
+      - file: chapter/10-definition_explicabilite
+      - file: chapter/11-usages
+        sections:
+        - file: chapter/dialogue/01-dialogue
+        - file: chapter/dialogue/02-dialogue
+        - file: chapter/dialogue/03-dialogue
+        - file: chapter/dialogue/04-dialogue
+        - file: chapter/12-reglementation
+        - file: chapter/13-resume_usages
+      - file: chapter/14-methodes
+      - file: chapter/15-explicabilite_locale
+      - file: chapter/16-explicabilite_globale
+      - file: chapter/17-explicabilite_variable
+      - file: chapter/18-counterfactual
+      - file: chapter/19-limites
+      - file: chapter/20-choix_modele
+      - file: chapter/21-application
+      - file: chapter/21b-selection_population
+      - file: chapter/22-qualite_explicabilite
+      - file: chapter/23-image_texte
+  - caption: Annexes
+    chapters:
+      - file: chapter/30-packages_python
+      - file: chapter/31-citations
+
+
