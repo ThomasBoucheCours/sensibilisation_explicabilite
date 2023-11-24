@@ -1,4 +1,5 @@
 # Les limites de certaines méthodes
+🚀🛰️🧑‍🚀
 
 Plusieurs limites à ces différentes méthodes : 
 - Il faut mettre en perspective l'explicabilité avec l'erreur de prédiction
