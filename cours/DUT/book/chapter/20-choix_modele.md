@@ -1,7 +1,8 @@
 # choix d'un modèle
-performance versus explicabilité
 
-compromis entre explicabilité et performance du modèle
-+ simplicité de mise en place
-+ simplicité de maintien dans le temps
-+ harmonisation des pratiques
+Souvent le choix d'un modèle est un compromis entre performance et explicabilité du modèle.
+
+D'autres critères peuvent être pris en compte :
+- Simplicité de mise en place
+- Simplicité de maintien dans le temps
+- Harmonisation des pratiques
