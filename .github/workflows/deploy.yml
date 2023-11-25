@@ -47,8 +47,8 @@ jobs:
           path: "cours/DUT/book/_build/html"
 
       # Deploy the book's HTML to GitHub Pages
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v2
+      - name: GitHub Pages action
+        uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_build/html
