@@ -12,7 +12,7 @@ Tom
 
 ```{figure} ../../../../assets/PDP_plot.png
 ---
-width: 750px
+width: 600px
 name: PDP_plot
 
 ---
@@ -22,7 +22,7 @@ Partial Dependance Plot de Sklearn, Image par l'auteur
 
 ```{figure} ../../../../assets/contribution_plot.png
 ---
-width: 750px
+width: 600px
 name: contribution_plot
 
 ---
