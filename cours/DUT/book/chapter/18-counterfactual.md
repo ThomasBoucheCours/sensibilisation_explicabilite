@@ -10,7 +10,7 @@ Tom
 ```
 
 L'idée est de modifier des paramètres du dataset pour changer la prédiction.
-![Exemple counterfactual](../../../../assets/dice_example.png)
+
 ```{figure} ../../../../assets/dice_example.png
 ---
 width: 750px
