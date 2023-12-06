@@ -1,7 +1,7 @@
 # Explicablité locale
 🕵️‍♂️👨‍✈️💵
 
-**Quelle est l'influence de chaque variable sur une prédiction ?**
+**Quelle est l'influence de chaque variable sur la prédiction d'un individu ?**
 
 ```
 🗨️(Peux tu me dire pourquoi ce crash a fait X décès ?)
