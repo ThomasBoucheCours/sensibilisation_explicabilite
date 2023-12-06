@@ -1,3 +1,4 @@
 *catboost_info/
 *checkpoint.ipynb
 _build/
+.venv/
