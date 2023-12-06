@@ -2,3 +2,4 @@ shapash>=2.3.7
 pygwalker>=0.3.0
 catboost>=1.2.0
 lightgbm>=4.0.0
+datapane==0.15.5
