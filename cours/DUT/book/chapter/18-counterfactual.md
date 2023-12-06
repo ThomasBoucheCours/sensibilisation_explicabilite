@@ -1,5 +1,5 @@
 # A base de contre exemples
-🔫🪖🎖️
+🔫🎖️💣
 
 **Quelles modifications dans les variables peuvent entraîner un changement de prédiction ?**
 
