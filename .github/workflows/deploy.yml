@@ -34,7 +34,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install -r requirements.txt
+          pip install -r ./cours/requirements.txt
 
       # Build the book
       - name: Build the book

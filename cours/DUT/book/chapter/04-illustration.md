@@ -1,17 +1,4 @@
 # Exemple pour illustrer le cours
+Pour illustrer les méthodes, utilisation du jeu de données [ERA5-Land hourly data from 1950 to present](https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land?tab=download)
 
-👨‍✈️ ✈️ 🌊
-
-```
-🗨️(Est ce qu'un modèle pourrait prédire le nombre de décès lors d'un accident d'avion ?)
-👨‍✈️
-Tom, Pilote d'avion
-```
-
-```
-🗨️(Oui)
-👩‍🏫
-Marguerite, Data Scientist
-```
-
-Pour illustrer les méthodes, utilisation du jeu de données [Airplane Crashes Since 1908](https://www.kaggle.com/datasets/saurograndi/airplane-crashes-since-1908)
+Ce Dataset ERA5 fournit des données météo horaires depuis 1950, partout dans le monde, en combinant des mesures réelles (stations météo, satellites, etc.) et un modèle informatique pour recréer les conditions climatiques.

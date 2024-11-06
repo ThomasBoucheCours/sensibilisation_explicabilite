@@ -10,8 +10,6 @@ parts:
       - file: chapter/01-objectifs
       - file: chapter/02-definition_ML
       - file: chapter/03-perimetre
-      - file: chapter/04-illustration
-      - file: chapter/05-performance
   - caption: Explicabilité
     numbered: true
     maxdepth: 2
@@ -25,6 +23,8 @@ parts:
         - file: chapter/dialogue/04-dialogue
         - file: chapter/12-reglementation
         - file: chapter/13-resume_usages
+      - file: chapter/04-illustration
+      - file: chapter/05-performance
       - file: chapter/14-methodes
       - file: chapter/15-explicabilite_locale
       - file: chapter/16-explicabilite_globale
