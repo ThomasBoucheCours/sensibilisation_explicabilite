@@ -1,28 +1,28 @@
-# Transparence, Confiance, Acceptation sociale et Maîtrise de l'usage
-
-Contexte : *Les RH ont recours à un modèle d'IA pour trier les candidatures des pilotes d'avion*
+# Expliquer une prédiction, debug, ...
+Contexte : *Une tempête est encours, Marguerite doit donner une estimation du nombre de sinistre sur une zone très précise*
+Comme pour le dialogue 1, on peut reprendre les mêmes perso et le même décors, s'il y a une fenêtre, on peut ajouter des nuages pour montrer la tempête en cours
 
 Scénario 1 : 
 
->**Candidat** : J'ai postulé pour un poste, mais ma candidature a été rejetée sans explication. Pourquoi ?
+>**Marguerite** : Bon, les calculs sont terminés. Le modèle prévoit une centaine de sinistres.
 >
->**Responsable des Ressources Humaines** : Désolé, notre système a pris cette décision en fonction des données que vous avez fournies, mais nous ne pouvons pas vous expliquer pourquoi. C'est une décision automatisée.
+>**Alex (étonné)** : Une centaine ? Ça me paraît super bas, il devrait y en avoir dix fois plus avec une tempête comme ça.
 >
->**Candidat** : Cela me semble injuste. Comment puis-je être sûr que la décision était basée sur des critères équitables ?
+>**Marguerite  (agacée)** : Ah, c’est nul, franchement le machine learning, ça marche jamais comme on veut.
+
 
 Scénario 2 : 
 
->**Candidat** : J'ai postulé pour le poste de pilote d'avion dans votre compagnie, mais ma candidature a été rejetée. Pouvez-vous m'expliquer pourquoi ?
+>**Marguerite** : Bon, les calculs sont terminés. Le modèle estime une centaine de sinistres.
 >
->**Responsable des Ressources Humaines** : Bien sûr. Notre système d'IA a examiné plusieurs critères, comme votre nombre d'années d'expérience, votre formation, les langues que vous parlez. Dans votre cas, vous avez 2 ans d'expérience seulement, d'autres candidats avaient plus de 6 ans d'expériences.
+>**Alex (étonné)** : Une centaine ? Ça paraît bas… on devrait en voir bien plus dans ces conditions.
 >
->**Candidat** : Je comprends. Est-ce qu'il y avait d'autres facteurs qui ont influencé la décision ?
->
->**Responsable des Ressources Humaines** : Notre système a également noté que vous ne parlez que deux langues, hors la plupart des candidats en parle au moins 4. Cela a également pesé dans la balance contre votre candidature.
->
->**Candidat** : Merci pour les détails. Cela m'aide vraiment à comprendre la décision. Je vais essayer d'apprendre une nouvelle langue.
+>**Marguerite (réfléchissant)** : Hum, ok, je vais vérifier avec l’explicabilité pour comprendre ce qui limite la prédiction.
 
-> **A retenir :** L'explicabilité peut aider à donner confiance aux utilisateurs de l'IA. Elle permet également d'être transparent sur 
-la prédiction effectué. Cela peut permettre de favoriser l'acceptation de l'usage de l'IA. 
-A noter qu'il ne suffit pas de l'explicabilité, il faut aussi que l'IA soit utile pour la société, éthique, transparente,..
-L'utilisateur du produit d'IA est plus en maîtrise de son usage si on complémente la prédiction avec de l'explicabilité. Dans ce cadre, il est en maîtrise de faire usage ou non du retour de la prédiction.
+>**Marguerite (après analyse)** : Alors, la vitesse du vent est bien prise en compte, mais le modèle semble donner un poids faible à l’exposition du territoire, ce qui réduit la prédiction. Comment on avait récupéré cette donnée?
+
+>**Alex** : On utilise un dataset en open data, il date de trois ans. Mais pour cette zone spécifique, l’exposition a probablement changé depuis. On devrait ajuster ça ou utiliser une source plus récente.
+>
+>**Marguerite** : Parfait, je vais mettre à jour la donnée, et on pourra faire un nouveau test.
+
+> **A retenir :** Si le modèle restitue seulement un montant ou une probabilité d'appartenir à une classe, son usage est limité. Les utilisateurs ne peuvent pas bien comprendre la prédiction. Avoir l'explicabilité permet de valider la prédiction en connaissant l'influence des variables. Elle peut aussi être restituer à des interlocuteurs non techniques pour accompagner la prédiction et leur donner confiance dans les résultats

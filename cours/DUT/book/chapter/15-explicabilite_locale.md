@@ -1,12 +1,9 @@
 # Explicablité locale
-🕵️‍♂️👨‍✈️💵
 
 **Quelle est l'influence de chaque variable sur la prédiction d'un individu ?**
 
 ```
-🗨️(Peux tu me dire pourquoi ce crash a fait X décès ?)
-👨‍✈️
-Tom
+🗨️(Peux tu me dire pourquoi ce vent est de x km/h ?)
 ```
 
 ```{figure} ../../../../assets/shap_exemple.png

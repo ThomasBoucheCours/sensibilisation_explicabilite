@@ -1,8 +1,7 @@
 # Evaluer les performances d'un modèle
-🦐🏓🏃
 
 ```
-🗨️(Le modèle est capable de bien prédire si les crashs ont plus de 100 décès)
+🗨️(Le modèle est capable de bien prédire les vitesses de vents supérieurs à 100km/h)
 👩‍🏫
 Marguerite, Data Scientist
 ```
@@ -24,7 +23,7 @@ Marguerite, Data Scientist
 
 **Evaluation sur les données de Test :**
 
-|                     | Prédiction < 100 décès | Prédiction > 100 décès  |
-|---------------------|------------------------|-------------------------|
-| Réalité < 100 décès |         300            |            50           |
-| Réalité > 100 décès |         20             |            400          |
+|                              | Prédiction wind_speed < 100km/h | Prédiction wind_speed > 100km/h |
+|------------------------------|---------------------------------|---------------------------------|
+| Réalité wind_speed < 100km/h |         3000                    |            500                  |
+| Réalité wind_speed > 100km/h |         20                      |            40                   |
