@@ -1,5 +1,4 @@
 # choix d'un modèle
-🚢🔫🆘
 
 Souvent le choix d'un modèle est un compromis entre performance et explicabilité du modèle.
 

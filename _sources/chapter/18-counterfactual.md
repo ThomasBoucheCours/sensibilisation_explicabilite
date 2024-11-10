@@ -1,12 +1,9 @@
 # A base de contre exemples
-🔫🎖️💣
 
 **Quelles modifications dans les variables peuvent entraîner un changement de prédiction ?**
 
 ```
-🗨️(Peux-tu m'indiquer les conditions qui auraient dû être réunies pour réduire le nombre de décès ?)
-👨‍✈️
-Tom
+🗨️(Peux-tu m'indiquer les conditions qui auraient dû être réunies pour augmenter la vitesse de vent ?)
 ```
 
 L'idée est de modifier des paramètres du dataset pour changer la prédiction.

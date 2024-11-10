@@ -1,12 +1,9 @@
 # Explicabilité globale : Feature importance
-🕵️‍♂️🔓🏺
 
 **Quelles sont les variables explicatives qui ont le plus de poids en moyenne dans la prédiction ?**
 
 ```
-🗨️(Peux tu me dire quels sont les critères qui ont le plus d'impacts au global ?)
-👨‍✈️
-Tom
+🗨️(Peux tu me dire quels sont les critères qui ont le plus d'impacts pour prédire la vitesse de vent?)
 ```
 
 ```{figure} ../../../../assets/feature_importance.png
