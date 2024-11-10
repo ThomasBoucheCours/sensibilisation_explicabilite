@@ -1,5 +1,4 @@
 # Méthodes agnostiques ou spécifiques
-📦🏝️🏐
 
 Explicabilité agnostiques au modèle :
 - Être applicable aux différents modèles
