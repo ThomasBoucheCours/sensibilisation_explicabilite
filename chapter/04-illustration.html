@@ -64,7 +64,7 @@
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="4. Evaluer les performances d’un modèle" href="05-performance.html" />
-    <link rel="prev" title="2.2. En résumé" href="13-resume_usages.html" />
+    <link rel="prev" title="2.4. En résumé" href="13-resume_usages.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   <meta name="docsearch:version" content="" />
@@ -179,8 +179,8 @@
 <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="10-definition_explicabilite.html">1. Définition de l’Explicabilité</a></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="11-usages.html">2. Pourquoi avoir de l’explicabilité ?</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
-<li class="toctree-l2"><a class="reference internal" href="12-reglementation.html">2.1. Pour de futures réglementations</a></li>
-<li class="toctree-l2"><a class="reference internal" href="13-resume_usages.html">2.2. En résumé</a></li>
+<li class="toctree-l2"><a class="reference internal" href="12-reglementation.html">2.3. Pour de futures réglementations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="13-resume_usages.html">2.4. En résumé</a></li>
 </ul>
 </details></li>
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">3. Exemple pour illustrer le cours</a></li>
@@ -394,6 +394,18 @@
 <h1><span class="section-number">3. </span>Exemple pour illustrer le cours<a class="headerlink" href="#exemple-pour-illustrer-le-cours" title="Link to this heading">#</a></h1>
 <p>Pour illustrer les méthodes, utilisation du jeu de données <a class="reference external" href="https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land?tab=download">ERA5-Land hourly data from 1950 to present</a></p>
 <p>Ce Dataset ERA5 fournit des données météo horaires depuis 1950, partout dans le monde, en combinant des mesures réelles (stations météo, satellites, etc.) et un modèle informatique pour recréer les conditions climatiques.</p>
+<p>Les variables extraites :</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">d2m</span></code> : Température du point de rosée à 2 mètres au-dessus du sol, en degrés Celsius (°C).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">t2m</span></code> : Température de l’air à 2 mètres au-dessus du sol, en degrés Celsius (°C).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">ssrd</span></code> : Rayonnement solaire direct qui atteint la surface de la Terre, en watts par mètre carré (W/m²).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">sp</span></code> : Pression atmosphérique au niveau de la mer, en hectopascals (hPa).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">tp</span></code> : Précipitations totales, en millimètres (mm).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">latitude</span></code> : latitude</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">longitude</span></code> : longitude</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">hour</span></code> : heure de l’observation</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">wind_speed</span></code> : La vitesse de vent (km/h) –&gt; cette variable a été reconstruite à partir de <code class="docutils literal notranslate"><span class="pre">u10</span></code> la composante horizontale (ouest-est) de la vitesse du vent. Et de <code class="docutils literal notranslate"><span class="pre">v10</span></code>, la composante verticale (sud-nord) de la vitesse du vent.</p></li>
+</ul>
 </section>
 
     <script type="text/x-thebe-config">
@@ -432,7 +444,7 @@
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title"><span class="section-number">2.2. </span>En résumé</p>
+        <p class="prev-next-title"><span class="section-number">2.4. </span>En résumé</p>
       </div>
     </a>
     <a class="right-next"
