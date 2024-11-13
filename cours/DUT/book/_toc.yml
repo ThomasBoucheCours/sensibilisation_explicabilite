@@ -17,10 +17,6 @@ parts:
       - file: chapter/10-definition_explicabilite
       - file: chapter/11-usages
         sections:
-        - file: chapter/dialogue/01-dialogue
-        - file: chapter/dialogue/02-dialogue
-        - file: chapter/dialogue/03-dialogue
-        - file: chapter/dialogue/04-dialogue
         - file: chapter/12-reglementation
         - file: chapter/13-resume_usages
       - file: chapter/04-illustration

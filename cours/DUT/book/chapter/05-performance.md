@@ -3,7 +3,7 @@
 ```
 🗨️(Le modèle est capable de bien prédire les vitesses de vents supérieurs à 100km/h)
 👩‍🏫
-Marguerite, Data Scientist
+Data Scientist
 ```
 
 **Indépendance entre les données d’entraînement et de test :**
