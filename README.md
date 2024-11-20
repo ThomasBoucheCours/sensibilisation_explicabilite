@@ -16,6 +16,10 @@ La documentation est générée avec [jupyter-book](https://jupyterbook.org/en/s
 Le cours est disponible sur la page github.io du repo :
 https://thomasbouchecours.github.io/sensibilisation_explicabilite/chapter/root.html
 
+## 🎨 Illustrations 
+
+Le cours est accompagné d'un [manga](https://thomasbouchecours.github.io/sensibilisation_explicabilite/chapter/11-usages.html), illustré par Guy-Alain Selenou (ga_sln sur insta)
+
 
 
 
