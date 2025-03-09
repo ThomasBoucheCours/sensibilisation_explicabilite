@@ -8,8 +8,9 @@ Deux sessions de TP :
 
 - Remplir le [sondage](https://framaforms.org/barometres-representations-sociales-du-changement-climatique-1700638177
 )
-- (Recommandé) : Créer un environnement avec conda prompt `conda create -n shapash_env`
-- Installer les librairies `shapash` et `catboost` (si besoin de préciser les proxy : `pip install --proxy http://xxx.fr:port shapash`). 
+- (Recommandé) : Créer un environnement avec conda prompt `conda create -n shapash_env` ou un venv `python -m venv .venv`
+- Activer ce nouvel environnmement : pour conda `source activate mon_env` ou pour un venv `source .venv/bin/activate`
+- Installer les librairies `shapash` et `catboost` (`pip install shapash`). 
 - Télécharger les données : [ici](data/BDD OpinionWay pour l'ADEME - Barometre changement climatique - Compilation 2023.csv)
 - 2 choix de notebook : une [classification](TP/Travaux_pratiques_barometre_changement_climatique_classification.ipynb) ou une [regression](TP/Travaux_pratiques_barometre_changement_climatique_regression.ipynb)
 
