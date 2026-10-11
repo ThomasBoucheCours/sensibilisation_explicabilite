@@ -1,6 +1,6 @@
 # A propos du présentateur
 
-Data scientists geo à la Maif au sein de la cellule climat depuis 2024.
+Depuis 2024, data scientist à la Maif travaillant sur des sujets climatiques et la gestion des données géographiques.
 Data scientist scoring de 2019 à 2023.
 Contributeur à la librairie Shapash, open sourcé par la Maif et qui a pour but de rendre les modèles de machine learning compréhensible pour tous.
 
