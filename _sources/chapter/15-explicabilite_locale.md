@@ -9,14 +9,13 @@
 ## Shapley Values
 Une prédiction peut s'expliquer en considérant que chaque valeur des données d'entrée est un « joueur » dans un jeu où la prédiction correspond au gain. Les Shapley Values – une méthode issue de la théorie des jeux – nous indiquent comment répartir équitablement ce « gain » entre les données d'entrée.
 
-
-```{figure} ../../../../assets/shap_exemple.png
+```{figure} ../../../../assets/shapash_local_plot_waterfall_2.png
 ---
 width: 750px
-name: shap_exemple
+name: shapash_local_waterfall
 
 ---
-contribution locale de shap, Image par l'auteur
+Waterfall de contribution locale avec Shapash, Image par l'auteur
 ```
 
 ```{figure} ../../../../assets/shapash_local_plot.png
@@ -25,5 +24,5 @@ width: 750px
 name: shapash_local_plot
 
 ---
-contribution locale de Shapash, Image par l'auteur
+Vue locale des contributions avec Shapash, Image par l'auteur
 ```
